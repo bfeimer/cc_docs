@@ -1,0 +1,15 @@
+ body * {
+    visibility:hidden;
+  }
+.print_content, .print_content * {
+    visibility:visible;
+  }
+.print_content {
+    position:absolute;
+    left:0;
+    top:0;
+  }
+/*Special class to hide nested elements*/
+.print_content_no{
+    display: none;
+  }
